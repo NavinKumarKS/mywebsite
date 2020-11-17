@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Roboto+Mono:wght@100;400&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: cornsilk;
+font-family: 'Roboto Mono', monospace;
+font-weight: 100;
+}
+body{
+  background-color: #263238;
+}
+
+.center {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #455A64;
+  height: 100px;
+}
+.txt-div{
+  font-size: 20px;
+}
+
+.contact-div{
+  position: absolute;
+  top: 0px;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 15px;
+  border-radius: 0px 0px 20px 0px;
+  display: grid;
+  align-content: space-evenly;
+  background-color: red;
+}
+
+.pro-div{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  grid-gap: 10px;
+  font-size: 20px;
+}
+
+.edu-div{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 10px;
+  font-size: 20px;
+  
+}
+.dtl-p{
+  font-weight: 2px;
+  
+}
+.know-you-div{
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Nova Mono', monospace;
+  font-size: 25px;
+}
+.headline-dvi{
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
+}
